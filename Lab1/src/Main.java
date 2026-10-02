@@ -49,7 +49,7 @@ public class Main {
 		for (int i = 0; i < h.length; i++) {
 			System.out.print("| ");
 			for (int j = 0; j < h[i].length; j++) {
-				System.out.print(Math.round(h[i][j] *100.0)/100.0 + " ");
+				System.out.printf("%.2f ", (double) h[i][j]);
 			}
 			System.out.print("|");
 			System.out.println();
